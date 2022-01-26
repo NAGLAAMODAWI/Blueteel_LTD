@@ -1,0 +1,221 @@
+<?php include('include/header.html'); ?>
+<?php include 'sendemail.php'; ?>
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-9D4J7DYMRW"></script>
+
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-9D4J7DYMRW');
+  </script>
+</head>
+
+<body>
+  <!--==========================-->
+  <!--Start  Section Header-->
+  <section class="Header text-center">
+    <div class="Header-Cover">
+      <h1 class="typewrite" data-period="2000"
+        data-type='[ "Collaborations ", "Working Across Boundaries ", "Innovation ", "Strict Ethical Compliance " ]'>
+        <span class="wrap"></span>
+      </h1>
+      <h2>Blueteel International Company Ltd </h2>
+    </div>
+  </section>
+  <!--End Section Header-->
+  <!--==========================-->
+  <section class="About">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <h4>Us</h4>
+          <h1>About</h1>
+          <hr>
+          <div class="lead">
+            Blueteel International Company Ltd. is a provider of general trading services across various market
+            segments, spreading from technology infrastructure based products to commodities.
+            The company operates in an international geography, facilitating trade between east and west, with deeper
+            knowledge and engagement in the Middle East and Africa.
+            The company is engaged in providing support and services related to the products it sells covering all major
+            industries, contractors and traders in the region.
+          </div>
+          <button><a href="about.php"> Read More <i class="fa fa-long-arrow-right"
+                style="color: white;"></i></a></button>
+        </div>
+        <div class="col-md-4 hidden-xs hidden-sm hidden-md ">
+          <img src="images/about.jpg">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Start Services Section -->
+  <section class="Services">
+    <div class="container">
+      <h4>Our</h4>
+      <h1>Services</h1>
+      <hr>
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="Services-P">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-globe fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4><strong>Partners</strong> </h4>
+              <p>Blueteel International Company Ltd. Is proud to partner with major multinational
+                companies from Aviation to Security, representing<a href="services.php">read more </a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail Diffrent-Services">
+            <div class="Services-P ">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-briefcase fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4><strong>International Business Development</strong> </h4>
+              <p>Blueteel International. works very closely with our international
+                clients in developing business opportunities ,<a href="services.php" style="color: white;">read more
+                </a>
+                <br class="visible-lg">
+                <br class="visible-lg">
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <div class="Services-P">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-product-hunt fa-stack-1x fa-inverse"></i>
+              </span>
+              <h4><strong>Trading</strong> </h4>
+              <p>Blueteel International Company Ltd. is active as an agent and distributors for
+                major multinational companies that are producing,<a href="services.php">read more </a>
+                <br class="visible-lg">
+                <br class="visible-lg">
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Start Industry Section -->
+  <section class="Industrys">
+    <div class="container">
+      <h4>Our</h4>
+      <h1>Industries</h1>
+      <hr>
+      <p class="text-center">
+        Blueteel International Company Ltd. is working with leading supplier <br>
+        of technology and equipment in the following fields
+      </p>
+      <div class="raw  text-center">
+        <div class=" col-sm-4 col-xm-12">
+          <div class="thumbnail">
+            <div class="Industry-one">
+              <div class="Industry-cover">
+                <h3>Airport Infrastructure </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-4 col-xm-12">
+          <div class="thumbnail">
+            <div class="Industry-Tow">
+              <div class="Industry-cover">
+                <h4> Engineering Design Consultancy</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class=" col-sm-4 col-xm-12">
+          <div class="thumbnail">
+            <div class="Industry-three">
+              <div class="Industry-cover">
+                <h3>Security </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button><a href="carere.php"> Read More </a><i class="fa fa-long-arrow-right"
+            style="color: white;"></i></button>
+      </div>
+  </section>
+
+  <!--Start Our Client Section-->
+  <section class="Partners">
+    <div class="container">
+      <h4>Our</h4>
+      <h1>Partners</h1>
+      <hr>
+      <div class="mainSlickSlider">
+  <div class="container">
+    <section class="slickSlider">
+      <div class="slide"><a href="https://www.srk-systems.de/en/"><img src="images/srk_logo_header.png"></a></div>
+      <div class="slide"><a href="https://www.pelco.com/"><img src="images/Pelco-Logo.png"></a></div>
+      <div class="slide"><a href="https://adbsafegate.com/"><img src="images/abd-logo.png"></a></div>
+      <div class="slide"><a href="https://vmisecurity.com"><img src="images/logo-vmi1.jpg"></a></div>
+      </section>
+  </div>
+</div>
+  </section>
+  <!-- start Section contact us-->
+  <section class="contact-us text-center" style="margin-top: 40px;">
+    <div class="fields">
+      <div class="container">
+        <div class="raw">
+          <h1>Tell Us What You Feel</h1>
+          <p class="lead">What You Want To Say</p>
+
+    <!--contact section start-->
+          <!-- start Form-->
+           <!--alert messages-->
+           <?php echo $alert; ?>
+           <div id="message"></div>
+          <form id="sample_form" role="form"  action="<?php echo $_SERVER['PHP_SELF']?>" method="post">
+            <div class=" col-lg-6">
+              <div class="form-group">
+                <input type="text" class="form-control input-lg" name="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control input-lg"name="email" placeholder="Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control input-lg"name="company_name" placeholder="Company Name" required>
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control input-lg" name="phone_number" placeholder="Phone Number" required>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="form-group">
+                <textarea class="form-control input-lg" placeholder="Your Message" name="message" required></textarea>
+              </div>
+              <button type="Submit" name="submit" id="submit" class="btn btn-primary btn-lg btn-block" onclick="save_data()">Send Message</button>
+            </div>
+          </form>
+          <div id="response"></div> <!---- here you can see the response after submiting --->
+           <!-- end Form-->
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+<script>
+  function save_data(e){
+    e.preventDefault()
+  }
+</script>
+</body>
+<?php include('include/footer.html'); ?>
+
+</html>
